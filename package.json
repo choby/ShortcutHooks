@@ -1,0 +1,15 @@
+{
+  "name": "shortcuthooks",
+  "version": "1.0.0",
+  "description": "Safe and convenient hooks collection",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hooks",
+    "react"
+  ],
+  "author": "choby",
+  "license": "MIT"
+}
