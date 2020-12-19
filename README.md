@@ -1,4 +1,4 @@
-# 方便快捷的的hooks集合
+# 方便快捷的hooks集合
 
 - useMount: 便捷直观的挂载完成钩子
 ```typescript
