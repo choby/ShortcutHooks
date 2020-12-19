@@ -17,7 +17,7 @@ useState(()=>{
 ```
 
 - useMoment: 重写calendarFormat方法, 生成更符合认知的相对时间
-### 项目入口文件调用后即可, 其他地方再使用moment生成相对时间时,就会是被重写后的值
+项目入口文件调用后即可, 其他地方再使用moment生成相对时间时,就会是被重写后的值
 
 ```typescript
     useMoment();
