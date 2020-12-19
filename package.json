@@ -1,8 +1,11 @@
 {
   "name": "shortcuthooks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Safe and convenient hooks collection for React",
   "main": "dist/index.js",
+  "repository": {
+    "url": "https://github.com/choby/ShortcutHooks"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,5 +14,9 @@
     "react"
   ],
   "author": "choby",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.32"
+  }
 }
