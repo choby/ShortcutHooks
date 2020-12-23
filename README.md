@@ -20,5 +20,24 @@ useState(()=>{
 项目入口文件调用后即可, 其他地方再使用moment生成相对时间时,就会是被重写后的值
 
 ```typescript
-    useMoment();
+useMoment();
+```
+
+- useFetchWithInitState: 带有初始化状态的刷新方法, 用来标记页面是否是第一次刷新数据
+
+```typescript
+const [initializing, useFetch,useFetchEffect] = useFetchWithInitState();
+
+useEffect(() => {
+        useFetch(async () => {
+            //fetch data
+        });
+}, []);
+
+// or
+
+useFetchEffect(()=>{
+ // fetch data
+},[]);
+// fetch data前    initializing为true, fetch data 后initializing为false 
 ```
